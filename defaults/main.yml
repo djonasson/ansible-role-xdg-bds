@@ -7,7 +7,7 @@
 # value in: [present, absent]
 xdg_configure_state: present
 
-# The marker line template. "{mark}" will be replaced with "BEGIN" or "END".
+# The marker line template.
 xdg_marker: "# {mark} ANSIBLE MANAGED BLOCK (djonasson.xdg_bds)"
 
 # =====================================================================================================================

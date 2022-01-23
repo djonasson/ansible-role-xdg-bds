@@ -15,8 +15,7 @@ The role variables are defined in `defaults/main.yml` with these defaults:
 
     xdg_configure_state: present
 
-The state in which settings are written via the blockinfile module.
-value in: [present, absent]
+The state in which settings are written via the blockinfile module. Value in: [present, absent].
 
     xdg_marker: "# {mark} ANSIBLE MANAGED BLOCK (djonasson.xdg_bds)"
 
