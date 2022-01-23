@@ -1,0 +1,18 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: xdg_bds
+  author: djonasson
+  description: Ansible role to configure XDG Base Directory Specification shell variables and directories.
+  license: "MIT"
+  min_ansible_version: 2.8
+  platforms:
+    - name: GenericUNIX
+      versions:
+        - all
+        - any
+  galaxy_tags:
+    - configuration
+    - linux
+    - xdg
