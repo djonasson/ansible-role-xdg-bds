@@ -8,7 +8,7 @@
 xdg_configure_state: present
 
 # The marker line template.
-xdg_marker: "# {mark} ANSIBLE MANAGED BLOCK (djonasson.xdg_bds)"
+xdg_marker: "# {mark} ANSIBLE MANAGED BLOCK (djonasson.ansible-role-xdg_bds)"
 
 # =====================================================================================================================
 # XDG BDS Defaults
