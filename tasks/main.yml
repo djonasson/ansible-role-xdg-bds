@@ -31,6 +31,7 @@
     block: "{{ xdg_config_block }}"
     create: true
     dest: "{{ xdg_config_file }}"
+    insertbefore: BOF
     marker: "{{ xdg_marker }}"
     mode: '0644'
     state: "{{ xdg_configure_state }}"
