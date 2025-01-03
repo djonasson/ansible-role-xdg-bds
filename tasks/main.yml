@@ -1,6 +1,6 @@
 ---
 - name: Include variables for the current shell.
-  include_vars: "{{ ansible_user_shell | basename }}.yml"
+  ansible.builtin.include_vars: "{{ ansible_user_shell | basename }}.yml"
 
 - name: Make sure the XDG_CACHE_HOME directory exists.
   ansible.builtin.file:
